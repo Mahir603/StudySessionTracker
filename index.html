@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Session Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Study Session Tracker</h1>
+
+  <label>
+    Onderwerp:
+    <input type="text" id="subject" placeholder="Bijv. Programmeren">
+  </label>
+
+  <div class="timer" id="timer">00:00</div>
+
+  <button id="startBtn">Start</button>
+  <button id="stopBtn" disabled>Stop</button>
+
+  <h2>Sessies</h2>
+  <ul id="sessionList"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
